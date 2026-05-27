@@ -1,7 +1,11 @@
-export default function GlassCard() {
+
+
+
+
+export default function GlassCard( {imageSrc, alt} ) {
   return (
-    <div className="min-h-screen flex items-center justify-center">
-        <div className="[@media(min-width:1440px)]:hover:-translate-y-2.5 transition-transform duration-300">
+    <div className="flex items-center justify-center">
+        <div className="[@media(min-width:1024px)]:hover:-translate-y-2.5 transition-transform duration-300">
             <div className="relative w-80 h-80 rounded-[48px] overflow-hidden
                 bg-white/10
                 border:[1px] border-black/10
@@ -63,12 +67,12 @@ export default function GlassCard() {
                 />
                 {/* Image */}
                 <img
-                src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1000&auto=format&fit=crop"
-                alt=""
+                src={imageSrc}
+                alt={alt}
                 className="
                     w-full h-full
                     object-cover
-                    opacity-70
+                    opacity-80
                 "
                 />
             </div>
