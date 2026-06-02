@@ -8,7 +8,6 @@ export default function GlassCard( {imageSrc, alt} ) {
         <div className="[@media(min-width:1024px)]:hover:-translate-y-2.5 transition-transform duration-300">
             <div className="relative w-80 h-80 rounded-[48px] overflow-hidden
                 bg-white/10
-                border:[1px] border-black/10
                 backdrop-blur-xl
                 shadow-[0_8px_32px_rgba(0,0,0,0.35)]
             ">
