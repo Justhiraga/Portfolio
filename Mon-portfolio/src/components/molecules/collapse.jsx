@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
+import Desc from "../atoms/desc";
 
 export default function Collapse() {
     const [isOpen, setIsOpen] = useState(false);
@@ -25,19 +26,7 @@ export default function Collapse() {
           isOpen ? "max-h-96 opacity-100 transform-translate-y-full" : "max-h-0 opacity-0 transform-translate-y-full"
         }`}
       >
-        <div className="p-4 bg-zinc-800 rounded-xl">
-          <h3 className="font-bold text-lg">Graves</h3>
-          <p className="text-gray-300 mt-2">
-            Projet réalisé avec React, TailwindCSS et Framer Motion.
-          </p>
-
-          <a
-            href="#"
-            className="inline-block mt-3 text-purple-400 hover:underline"
-          >
-            Voir le projet
-          </a>
-        </div>
+        <Desc />
       </div>
     </div>
   );

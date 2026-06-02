@@ -1,7 +1,7 @@
 import GlassCard from "../molecules/GlassCard";
 import image123 from "../../assets/img/image123.png";
 import image456 from "../../assets/img/image456.png";
-import Collapse from "../atoms/collapse";
+import Collapse from "../molecules/collapse";
 import Titles from "../atoms/titles";
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
