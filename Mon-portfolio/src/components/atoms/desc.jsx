@@ -22,8 +22,8 @@ export default function Desc() {
                 </a>
             </div>
             <div className="flex">
-    <span className="flex flex-col items-center text-purple-400">
-        technologies utilisées:  <Atom /> 
+    <span className="flex  items-center text-purple-400 m-3 gap-2">
+        technologies utilisées:  <Atom /> <Atom /> <Atom /> <Atom /> <Atom /> 
     </span>
 </div>
         </div>

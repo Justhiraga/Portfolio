@@ -9,8 +9,11 @@ export default function Collapse() {
     <div className="w-full max-w-md mx-auto">
       {/* Bouton flèche */}
       <button
+        id="dropdown-arrow"
+        aria-label="dropdown-arrow"
         onClick={() => setIsOpen(!isOpen)}
         className="flex justify-center w-full mt-2"
+        
       >
         <ChevronDown
           size={28}
@@ -19,6 +22,8 @@ export default function Collapse() {
           }`}
         />
       </button>
+
+  
 
       {/* Collapse */}
       <div
