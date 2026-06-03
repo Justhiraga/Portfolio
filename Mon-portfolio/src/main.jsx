@@ -1,12 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router";
+import { BrowserRouter, Routes , Route } from "react-router";
 import "./index.css";
-import App from "./App.jsx";
+import Home from "./pages/Home.jsx";
+import Error404 from "./pages/Error404.jsx";
 const root = document.getElementById("root");
 
 ReactDOM.createRoot(root).render(
   <BrowserRouter>
-    <App />
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="*" element={<Error404 />} />
+  </Routes>
   </BrowserRouter>,
 );

@@ -5,7 +5,7 @@
 export default function GlassCard( {imageSrc, alt} ) {
   return (
     <div className="flex items-center justify-center">
-        <div className="[@media(min-width:1024px)]:hover:-translate-y-2.5 transition-transform duration-300">
+        <div>
             <div className="relative w-80 h-80 rounded-[48px] overflow-hidden
                 bg-white/10
                 backdrop-blur-xl

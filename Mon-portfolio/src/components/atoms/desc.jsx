@@ -1,6 +1,7 @@
 import { FolderGit2 } from "lucide-react";
 import { BookOpenText } from "lucide-react";
-import { Atom } from "lucide-react";
+import { NavLink } from "react-router";
+
 
 export default function Desc() {
     return (
@@ -21,11 +22,6 @@ export default function Desc() {
                     </span>
                 </a>
             </div>
-            <div className="flex">
-    <span className="flex  items-center text-purple-400 m-3 gap-2">
-        technologies utilisées:  <Atom /> <Atom /> <Atom /> <Atom /> <Atom /> 
-    </span>
-</div>
         </div>
     );
 }

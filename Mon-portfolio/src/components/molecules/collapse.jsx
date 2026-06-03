@@ -17,7 +17,7 @@ export default function Collapse() {
       >
         <ChevronDown
           size={28}
-          className={`text-[#7d3fb6] transition-transform duration-300 ${
+          className={`text-[#ffffff] transition-transform duration-300 ${
             isOpen ? "rotate-180" : ""
           }`}
         />
