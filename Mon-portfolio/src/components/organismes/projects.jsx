@@ -31,6 +31,34 @@ export default function Projects() {
         <div className="min-h-[57vh] flex flex-col items-center pt10 bg-[#1a1622]">
             <Titles title={"Projets 3"} />
             <GlassCard imageSrc={image123} alt={"image123"} />
+            <Collapse/>
+            <NavLink to="/" className="flex  items-center text-purple-400 m-3 gap-2">
+                En savoir plus
+            </NavLink>
+        </div>
+        <div className="min-h-[57vh] flex flex-col items-center pt10 bg-[#251337]">
+            <Titles title={"Projets 4"} />
+            <GlassCard imageSrc={image123} alt={"image123"} />
+            <Collapse/>
+            <NavLink to="/" className="flex  items-center text-purple-400 m-3 gap-2">
+                En savoir plus
+            </NavLink>
+        </div>
+        <div className="min-h-[57vh] flex flex-col items-center pt10 bg-[#1a1622]">
+            <Titles title={"Projets 5"} />
+            <GlassCard imageSrc={image123} alt={"image123"} />
+            <Collapse/>
+            <NavLink to="/" className="flex  items-center text-purple-400 m-3 gap-2">
+                En savoir plus
+            </NavLink>
+        </div>
+        <div className="min-h-[57vh] flex flex-col items-center pt10 bg-[#251337]">
+            <Titles title={"Projets 6"} />
+            <GlassCard imageSrc={image123} alt={"image123"} />
+            <Collapse/>
+            <NavLink to="/" className="flex  items-center text-purple-400 m-3 gap-2">
+                En savoir plus
+            </NavLink>
         </div>
     </div>
     )

@@ -4,7 +4,7 @@ import Profil from "../components/organismes/profil";
 import Footer from "../components/molecules/footer";
 
 
-export default function App() {
+export default function Home() {
   return (
     <div>
       <Header />
