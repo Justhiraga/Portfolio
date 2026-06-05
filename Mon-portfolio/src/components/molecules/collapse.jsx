@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import Desc from "../atoms/desc";
 
-export default function Collapse() {
+export default function Collapse( { Repo, Gpages } ) {
     const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -12,7 +12,7 @@ export default function Collapse() {
         id="dropdown-arrow"
         aria-label="dropdown-arrow"
         onClick={() => setIsOpen(!isOpen)}
-        className="flex justify-center w-full mt-2"
+        className="flex justify-center w-full mt-2 cursor-pointer"
         
       >
         <ChevronDown
@@ -31,7 +31,7 @@ export default function Collapse() {
           isOpen ? "max-h-96 opacity-100 transform-translate-y-full" : "max-h-0 opacity-0 transform-translate-y-full"
         }`}
       >
-        <Desc />
+        <Desc Repo={Repo} Gpages={Gpages} />
       </div>
     </div>
   );
