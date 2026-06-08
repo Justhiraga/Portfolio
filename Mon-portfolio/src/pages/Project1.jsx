@@ -17,7 +17,7 @@ export default function Project1() {
     return (
         <div>
             <Header  />
-            <div className="min-h-[57vh] flex flex-col items-center pt10 bg-[#1a1622]">
+            <div className="min-h-[57vh] flex flex-col items-center pt10 bg-primary">
                             <Titles title={"Projet : Oh My Food"} />
                             <GlassCard imageSrc={ohmyfood} alt={"projet ohmyfood"} />
                             <div className="flex items-center">

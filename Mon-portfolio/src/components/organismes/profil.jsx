@@ -9,7 +9,7 @@ import Comp from "../molecules/comp";
 export default function Profil() {
     return (
         <div id="profil">
-            <div className="min-h-[57vh] flex flex-col items-center pt10 bg-[#1a1622]">
+            <div className="min-h-[57vh] flex flex-col items-center pt10 bg-primary">
                 <Titles title={"ABADIE Patrick"} />
                 <GlassCard imageSrc={photo_profil} alt={"Photo de profil"} />
                 <div className="flex items-center">
