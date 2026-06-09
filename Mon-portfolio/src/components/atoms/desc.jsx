@@ -5,7 +5,6 @@ import { NavLink } from "react-router";
 
 
 export default function Desc( { Repo, Gpages, pages, technologies = [] } ) {
-    console.log(technologies);
     return (
         <div className="p-4 bg-zinc-800 rounded-xl flex flex-col items-center">
             <div className="flex">
@@ -20,7 +19,7 @@ export default function Desc( { Repo, Gpages, pages, technologies = [] } ) {
                 <a href={Gpages} className="inline-block mt-3 text-purple-400 hover:underline">
                     <div className="flex items-center">
                         <BookOpenText />
-                        <span className="ml-2">Github Pages</span>
+                        <span className="ml-2">Deployments</span>
                     </div>
                 </a>
             </div>
