@@ -17,7 +17,7 @@ export default function Collapse( { Repo, Gpages, pages, technologies = [] } ) {
       >
         <ChevronDown
           size={28}
-          className={`text-[#ffffff] transition-transform duration-300 ${
+          className={`text-white transition-transform duration-300 ${
             isOpen ? "rotate-180" : ""
           }`}
         />
