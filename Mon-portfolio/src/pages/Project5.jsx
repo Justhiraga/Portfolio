@@ -10,7 +10,7 @@ import { useEffect } from "react";
 
 
 
-export default function Project1() {
+export default function Project5() {
     useEffect(() => {
         document.title = "Projet : Créez une application web de location immobilière avec React ";
     })
@@ -24,7 +24,7 @@ export default function Project1() {
                                 <a href="https://github.com/Justhiraga/Appli-Web-React">
                                     <img src={github_logo} alt="projet github" className="w-10 h-10 m-3 "/>
                                 </a>
-                                <a href="">
+                                <a href=""> 
                                     <BookOpenText size={40} className="w-10 h-10 m-3" color="#ffffff" alt="github pages" />
                                 </a>
                                 <a href="https://www.figma.com/design/2BZEoBhyxt5IwZgRn0wGsL/Kasa_FR?node-id=0-1&p=f&t=zaLElgPSy2UsFTu9-0">

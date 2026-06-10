@@ -10,7 +10,7 @@ import { useEffect } from "react";
 
 
 
-export default function Project1() {
+export default function Project4() {
     useEffect(() => {
         document.title = "Optimiser le référencement d'un site";
     })
@@ -26,9 +26,6 @@ export default function Project1() {
                                 </a>
                                 <a href="https://justhiraga.github.io/Optimiser-site-main/">
                                     <BookOpenText size={40} className="w-10 h-10 m-3" color="#ffffff" alt="github pages" />
-                                </a>
-                                <a href="">
-                                    <img src={figmm_logo} alt="maquette figma" className="w-10 h-10 m-3 "/>
                                 </a>
                             </div>
                             <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-[#ffffff] text-[25px] m-6" >

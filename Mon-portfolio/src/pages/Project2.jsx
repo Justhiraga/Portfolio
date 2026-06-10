@@ -10,7 +10,7 @@ import { useEffect } from "react";
 
 
 
-export default function Project1() {
+export default function Project2() {
     useEffect(() => {
         document.title = "Projet 724Events";
     })
@@ -24,11 +24,8 @@ export default function Project1() {
                                 <a href="https://github.com/Justhiraga/Debuggez-une-application-React.JS">
                                     <img src={github_logo} alt="projet github" className="w-10 h-10 m-3 "/>
                                 </a>
-                                <a href="">
+                                <a href=""> 
                                     <BookOpenText size={40} className="w-10 h-10 m-3" color="#ffffff" alt="github pages" />
-                                </a>
-                                <a href="">
-                                    <img src={figmm_logo} alt="maquette figma" className="w-10 h-10 m-3 "/>
                                 </a>
                             </div>
                             <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-[#ffffff] text-[25px] m-6" >

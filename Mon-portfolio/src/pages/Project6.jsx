@@ -3,28 +3,28 @@ import Header from "../components/molecules/header";
 import GlassCard from "../components/molecules/GlassCard";
 import github_logo from "../assets/img/github_logo.png";
 import figmm_logo from "../assets/img/figma_logo.png";
-import argentBank from "../assets/img/argentBank.png";
+import Print_js from "../assets/img/Print_js.png";
 import Titles from "../components/atoms/titles";
 import { BookOpenText } from "lucide-react";
 import { useEffect } from "react";
 
 
 
-export default function Project3() {
+export default function Project6() {
     useEffect(() => {
-        document.title = "Projet Argent Bank";
+        document.title = "Projet : Premiers pas sur le langage JavaScript  ";
     })
     return (
         <div>
             <Header  />
             <div className="min-h-[57vh] flex flex-col items-center pt10 bg-primary">
-                            <Titles title={"Projet : Argent Bank"} />
-                            <GlassCard imageSrc={argentBank} alt={"projet argentBank"} />
+                            <Titles title={"Projet : Print js"} />
+                            <GlassCard imageSrc={Print_js} alt={"projet print js"} />
                             <div className="flex items-center">
-                                <a href="https://github.com/Justhiraga/ArgentBank-Frontend">
+                                <a href="https://github.com/Justhiraga/Print_it_Javascript">
                                     <img src={github_logo} alt="projet github" className="w-10 h-10 m-3 "/>
                                 </a>
-                                <a href="">
+                                <a href="https://justhiraga.github.io/Print_it_Javascript/">
                                     <BookOpenText size={40} className="w-10 h-10 m-3" color="#ffffff" alt="github pages" />
                                 </a>
                             </div>
