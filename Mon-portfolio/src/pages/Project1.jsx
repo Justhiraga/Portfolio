@@ -37,7 +37,7 @@ export default function Project1() {
 
                         Quelle est la situation de la start-up Ohmyfood et pourquoi ce site est-il important ? <br /><br />
 
-                        (Ex : site de restauration en ligne, besoin de mettre en place une application mobile-first.)<br /><br />
+                        (site de restauration en ligne, besoin de mettre en place une application mobile-first.)<br /><br />
 
                         Quels sont les enjeux liés à la mise en œuvre d'un site mobile-first avec animations pour une start-up dans la restauration ?<br /><br />
 
