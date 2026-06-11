@@ -27,7 +27,7 @@ import { Omega } from "lucide-react";
 
 export default function Projects() {
     return (
-    <div id="project" >
+    <div id="project" className="flex flex-col min-[1044px]:grid min-[1044px]:grid-cols-3" >
         <div className="flex flex-col items-center p-5 bg-primary">
             <Titles title={"Oh My Food"} />
             <GlassCard imageSrc={ohmyfood} alt={"projet ohmyfood"} />

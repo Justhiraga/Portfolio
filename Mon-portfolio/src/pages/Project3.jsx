@@ -28,9 +28,9 @@ export default function Project3() {
                         <BookOpenText size={40} className="w-10 h-10 m-3" color="#ffffff" alt="github pages" />
                     </a>
                 </div>
-                <div className="flex flex-col items-center bg-secondary border-t-2 border-quaternary">
+                <div className="flex flex-col items-center bg-secondary border-t-2 border-quaternary w-full">
                     <Titles title={"Contexte : Situation et enjeux du projet"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 " >
+                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
 
                        Quelle est la situation initiale du projet ? <br /><br />
 
@@ -42,9 +42,9 @@ export default function Project3() {
                         
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-primary">
+                <div className="flex flex-col items-center bg-primary w-full">
                     <Titles title={" Objectifs : Buts à atteindre et problématiques à résoudre"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6" >
+                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
 
                         Quels sont les objectifs fonctionnels et techniques à réaliser ?<br /> <br />
 
@@ -55,9 +55,9 @@ export default function Project3() {
                         (par exemple : gestion du state global avec Redux, sécurisation des données utilisateur, développement responsive.)<br /> <br />
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-secondary">
+                <div className="flex flex-col items-center bg-secondary w-full">
                     <Titles title={"Stack technique : Technologies et outils utilisés"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6" >
+                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
 
                         Quelles technologies sont utilisées ? <br /> <br />
 
@@ -68,9 +68,9 @@ export default function Project3() {
                         - Outils d'optimisation Green Code pour images et composants.)<br /> <br />
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-primary">
+                <div className="flex flex-col items-center bg-primary w-full">
                     <Titles title={" Compétences développées : Apprentissages et défis relevés"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6" >
+                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
 
                         Quelles sont les principales compétences acquises ?<br /> <br />
 
@@ -88,9 +88,9 @@ export default function Project3() {
                                                 
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-secondary">
+                <div className="flex flex-col items-center bg-secondary w-full">
                     <Titles title={"Résultats et impact : Livrables et métriques de réussite"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6" >
+                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
 
                         Quels sont les livrables finaux ?<br /> <br />
                         
@@ -107,9 +107,9 @@ export default function Project3() {
                         - Critères de réussite : fonctionnement sans bug, expérience utilisateur fluide, respect des maquettes et normes de sécurité.<br />
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-primary">
+                <div className="flex flex-col items-center bg-primary w-full">
                     <Titles title={"Perspectives d'amélioration : Points d'optimisation identifiés"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6" >
+                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
 
                         Quels éléments pourraient être améliorés ou ajoutés ?<br /> <br />
 

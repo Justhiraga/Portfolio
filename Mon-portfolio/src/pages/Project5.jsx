@@ -31,9 +31,9 @@ export default function Project5() {
                         <img src={figmm_logo} alt="maquette figma" className="w-10 h-10 m-3 "/>
                     </a>
                 </div>
-                <div className="flex flex-col items-center bg-secondary border-t-2 border-quaternary">
+                <div className="flex flex-col items-center bg-secondary border-t-2 border-quaternary w-full">
                     <Titles title={"Contexte : Situation et enjeux du projet"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 " >
+                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center " >
 
                        Kasa, entreprise spécialisée dans la location immobilière, souhaite développer une application web front-end moderne <br /><br />
 
@@ -41,9 +41,9 @@ export default function Project5() {
                         
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-primary">
+                <div className="flex flex-col items-center bg-primary w-full">
                     <Titles title={" Objectifs : Buts à atteindre et problématiques à résoudre"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6" >
+                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
 
                         - React pour le développement des composants et gestion de l'interface.<br />
 
@@ -59,9 +59,9 @@ export default function Project5() {
 
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-secondary">
+                <div className="flex flex-col items-center bg-secondary  w-full">
                     <Titles title={"Stack technique : Technologies et outils utilisés"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6" >
+                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
 
                         - Audit avec Lighthouse, Wave pour la performance et l'accessibilité, GTMetrix.<br />
 
@@ -72,9 +72,9 @@ export default function Project5() {
                         - Utilisation de Git/GitHub pour versionner le code.<br />
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-primary">
+                <div className="flex flex-col items-center bg-primary w-full">
                     <Titles title={" Compétences développées : Apprentissages et défis relevés"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6" >
+                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
 
                         - Création et gestion d'une application React multipages.<br />
 
@@ -90,9 +90,9 @@ export default function Project5() {
 
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-secondary">
+                <div className="flex flex-col items-center bg-secondary w-full">
                     <Titles title={"Résultats et impact : Livrables et métriques de réussite"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6" >
+                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
 
                         - Application React pleinement fonctionnelle, conforme aux attentes du client et aux maquettes.<br />
 
@@ -107,9 +107,9 @@ export default function Project5() {
                         - Respect des critères de qualité fonctionnelle et visuelle.<br />
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-primary">
+                <div className="flex flex-col items-center bg-primary w-full">
                     <Titles title={"Perspectives d'amélioration : Points d'optimisation identifiés"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6" >
+                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
 
                         - Ajouter une connexion à un back-end réel pour récupérer les données en dynamique.<br />
 

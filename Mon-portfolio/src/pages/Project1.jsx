@@ -17,7 +17,7 @@ export default function Project1() {
     return (
         <div>
             <Header  />
-            <div className="min-h-[57vh] flex flex-col items-center pt10 bg-primary">
+            <div className="flex flex-col items-center pt10 bg-primary">
                 <Titles title={"Projet : Oh My Food"} />
                 <GlassCard imageSrc={ohmyfood} alt={"projet ohmyfood"} />
                 <div className="flex items-center">
@@ -31,9 +31,9 @@ export default function Project1() {
                         <img src={figmm_logo} alt="maquette figma" className="w-10 h-10 m-3 "/>
                     </a>
                 </div>
-                <div className="flex flex-col items-center bg-secondary border-t-2 border-quaternary">
+                <div className="flex flex-col items-center bg-secondary border-t-2 border-quaternary w-full">
                     <Titles title={"Contexte : Situation et enjeux du projet"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 " >
+                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center " >
 
                         Quelle est la situation de la start-up Ohmyfood et pourquoi ce site est-il important ? <br /><br />
 
@@ -45,9 +45,9 @@ export default function Project1() {
                         
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-primary">
+                <div className="flex flex-col items-center bg-primary w-full">
                     <Titles title={" Objectifs : Buts à atteindre et problématiques à résoudre"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6" >
+                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
 
                         Quel est l'objectif principal du projet ? <br /> <br />
 
@@ -58,9 +58,9 @@ export default function Project1() {
                         (Ex : intégration fidèle des maquettes, adaptation aux différents formats d'écrans, fluidité des animations.)<br /> <br />
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-secondary">
+                <div className="flex flex-col items-center bg-secondary w-full">
                     <Titles title={"Stack technique : Technologies et outils utilisés"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6" >
+                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
 
                         Quels langages et outils sont employés ? <br /> <br />
 
@@ -71,9 +71,9 @@ export default function Project1() {
                         (Ex : W3C Markup Validator, W3C CSS Validator, Google Lighthouse, etc.)
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-primary">
+                <div className="flex flex-col items-center bg-primary w-full">
                     <Titles title={" Compétences développées : Apprentissages et défis relevés"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6" >
+                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
 
                         Quelles compétences techniques avez-vous améliorées ?<br /> <br />
 
@@ -84,9 +84,9 @@ export default function Project1() {
                         (première ulitisation des animations CSS, gestion du responsive et première utilisation de SASS )
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-secondary">
+                <div className="flex flex-col items-center bg-secondary w-full">
                     <Titles title={"Résultats et impact : Livrables et métriques de réussite"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6" >
+                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
 
                         Quels sont les livrables finaux ?<br /> <br />
 
@@ -97,9 +97,9 @@ export default function Project1() {
                         (Ex : validation W3C, compatibilité multi-écrans, fidelité avec les maquettes.)
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-primary">
+                <div className="flex flex-col items-center bg-primary w-full">
                     <Titles title={"Perspectives d'amélioration : Points d'optimisation identifiés"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6" >
+                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
 
                         Quels éléments pourraient être améliorés ou ajoutés ?<br /> <br />
 

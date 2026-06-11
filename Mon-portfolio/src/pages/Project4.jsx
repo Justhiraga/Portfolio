@@ -28,9 +28,9 @@ export default function Project4() {
                         <BookOpenText size={40} className="w-10 h-10 m-3" color="#ffffff" alt="github pages" />
                     </a>
                 </div>
-                <div className="flex flex-col items-center bg-secondary border-t-2 border-quaternary">
+                <div className="flex flex-col items-center bg-secondary border-t-2 border-quaternary w-full">
                     <Titles title={"Contexte : Situation et enjeux du projet"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 " >
+                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center " >
 
                         Quelle est la situation de Nina Carducci et son site web avant optimisation ? <br /><br />
 
@@ -42,9 +42,9 @@ export default function Project4() {
                         
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-primary">
+                <div className="flex flex-col items-center bg-primary w-full">
                     <Titles title={" Objectifs : Buts à atteindre et problématiques à résoudre"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6" >
+                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
 
                         Quels sont les objectifs précis ? <br /> <br />
 
@@ -55,9 +55,9 @@ export default function Project4() {
                         (images lourdes, balisage insuffisant, absence de SEO local.)<br /> <br />
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-secondary">
+                <div className="flex flex-col items-center bg-secondary w-full">
                     <Titles title={"Stack technique : Technologies et outils utilisés"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6" >
+                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
 
                         - Audit avec Lighthouse, Wave pour la performance et l'accessibilité, GTMetrix.<br />
 
@@ -68,9 +68,9 @@ export default function Project4() {
                         - Utilisation de Git/GitHub pour versionner le code.<br />
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-primary">
+                <div className="flex flex-col items-center bg-primary w-full">
                     <Titles title={" Compétences développées : Apprentissages et défis relevés"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6" >
+                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
 
                         - Analyse et interprétation des rapports d'audit.<br />
 
@@ -84,9 +84,9 @@ export default function Project4() {
 
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-secondary">
+                <div className="flex flex-col items-center bg-secondary w-full">
                     <Titles title={"Résultats et impact : Livrables et métriques de réussite"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6" >
+                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
 
                         - Site optimisé avec score Lighthouse ≥ 90% en performance, SEO et accessibilité.<br />
 
@@ -97,9 +97,9 @@ export default function Project4() {
                         - Impact : amélioration du référencement naturel, meilleure expérience utilisateur, augmentation probable du trafic.<br />
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-primary">
+                <div className="flex flex-col items-center bg-primary w-full">
                     <Titles title={"Perspectives d'amélioration : Points d'optimisation identifiés"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6" >
+                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
 
                         Quels éléments pourraient être améliorés ou ajoutés ?<br /> <br />
 
