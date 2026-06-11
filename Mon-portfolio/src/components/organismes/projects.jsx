@@ -1,6 +1,4 @@
 import GlassCard from "../molecules/GlassCard";
-import image123 from "../../assets/img/image123.png";
-import image456 from "../../assets/img/image456.png";
 import react_logo from "../../assets/img/react_logo.png";
 import react_router_logo from "../../assets/img/react_router_logo.png";
 import sass_logo from "../../assets/img/sass_logo.png";
