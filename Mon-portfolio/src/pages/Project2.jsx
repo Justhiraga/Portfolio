@@ -1,10 +1,10 @@
-import Footer from "../components/molecules/footer";
-import Header from "../components/molecules/header";
+import Footer from "../components/molecules/Footer";
+import Header from "../components/molecules/Header";
 import GlassCard from "../components/molecules/GlassCard";
 import github_logo from "../assets/img/github_logo.png";
 import figmm_logo from "../assets/img/figma_logo.png";
 import events724 from "../assets/img/events724.png";
-import Titles from "../components/atoms/titles";
+import Titles from "../components/atoms/Titles";
 import { BookOpenText } from "lucide-react";
 import { useEffect } from "react";
 
@@ -23,9 +23,6 @@ export default function Project2() {
                 <div className="flex items-center">
                     <a href="https://github.com/Justhiraga/Debuggez-une-application-React.JS">
                          <img src={github_logo} alt="projet github" className="w-10 h-10 m-3 "/>
-                    </a>
-                    <a href=""> 
-                        <BookOpenText size={40} className="w-10 h-10 m-3" color="#ffffff" alt="github pages" />
                     </a>
                 </div>
                 <div className="flex flex-col items-center bg-secondary border-t-2 border-quaternary w-full">

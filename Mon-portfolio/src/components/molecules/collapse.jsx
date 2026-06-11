@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
-import Desc from "../atoms/desc";
+import Desc from "../atoms/Desc";
 
-export default function Collapse( { Repo, Gpages, pages, technologies = [] } ) {
+export default function Collapse( { Infos = [],Infos2 = [], pages, technologies = [] } ) {
     const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -32,8 +32,8 @@ export default function Collapse( { Repo, Gpages, pages, technologies = [] } ) {
         }`}
       >
         <Desc 
-          Repo={Repo} 
-          Gpages={Gpages} 
+          Infos={Infos}
+          Infos2={Infos2}
           pages={pages}
           technologies={technologies}
         />

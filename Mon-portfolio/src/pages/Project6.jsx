@@ -1,10 +1,10 @@
-import Footer from "../components/molecules/footer";
-import Header from "../components/molecules/header";
+import Footer from "../components/molecules/Footer";
+import Header from "../components/molecules/Header";
 import GlassCard from "../components/molecules/GlassCard";
 import github_logo from "../assets/img/github_logo.png";
 import figmm_logo from "../assets/img/figma_logo.png";
 import Print_js from "../assets/img/Print_js.png";
-import Titles from "../components/atoms/titles";
+import Titles from "../components/atoms/Titles";
 import { BookOpenText } from "lucide-react";
 import { useEffect } from "react";
 

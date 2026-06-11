@@ -4,25 +4,33 @@ import { NavLink } from "react-router";
 
 
 
-export default function Desc( { Repo, Gpages, pages, technologies = [] } ) {
+export default function Desc( { Infos = [],Infos2 = [], pages, technologies = [] } ) {
     return (
         <div className="p-4 bg-zinc-800 rounded-xl flex flex-col items-center">
-            <div className="flex">
-                <a href={Repo} className="inline-block mt-3 text-purple-400 hover:underline">
-                    <div className="flex items-center">
-                        <FolderGit2 />
-                        <span className="ml-2">Repo Github</span>
+            {Infos.map((Repo, index) => (
+                <>   
+                    <div className="flex" >
+                        <a href={Repo.Repo} className="inline-block mt-3 text-purple-400 hover:underline" key={index}>
+                            <div className="flex items-center">
+                                <FolderGit2 />
+                                <span className="ml-2">Repo Github</span>
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
-            <div className="flex">
-                <a href={Gpages} className="inline-block mt-3 text-purple-400 hover:underline">
-                    <div className="flex items-center">
-                        <BookOpenText />
-                        <span className="ml-2">Deployments</span>
-                    </div>
-                </a>
-            </div>
+                    </>
+                ))}
+                {Infos2.map((Gpages, index) => (
+                    <>
+                        <div className="flex">                    
+                            <a href={Gpages.Gpages} className="inline-block mt-3 text-purple-400 hover:underline" key={index}>
+                                <div className="flex items-center">
+                                    <BookOpenText />
+                                    <span className="ml-2">Deployments</span>
+                                </div>
+                            </a>
+                        </div>
+                    </>
+                ))}
             <div className="flex">
                 <div className="inline-block mt-3 text-purple-400">
                     <p className="ml-2 text-center">Technologies utilisées :</p>

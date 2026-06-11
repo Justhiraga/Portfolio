@@ -2,8 +2,8 @@ import GlassCard from "../molecules/GlassCard";
 import photo_profil from "../../assets/img/photo_profil.jpg";
 import github_logo from "../../assets/img/github_logo.png";
 import linkedin_logo from "../../assets/img/linkedin_logo.png";
-import Titles from "../atoms/titles";
-import Comp from "../molecules/comp";
+import Titles from "../atoms/Titles";
+import Comp from "../molecules/Comp";
 
 
 export default function Profil() {

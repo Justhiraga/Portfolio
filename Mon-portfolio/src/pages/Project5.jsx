@@ -1,10 +1,10 @@
-import Footer from "../components/molecules/footer";
-import Header from "../components/molecules/header";
+import Footer from "../components/molecules/Footer";
+import Header from "../components/molecules/Header";
 import GlassCard from "../components/molecules/GlassCard";
 import github_logo from "../assets/img/github_logo.png";
 import figmm_logo from "../assets/img/figma_logo.png";
 import Appreact from "../assets/img/Appreact.png";
-import Titles from "../components/atoms/titles";
+import Titles from "../components/atoms/Titles";
 import { BookOpenText } from "lucide-react";
 import { useEffect } from "react";
 
@@ -24,7 +24,7 @@ export default function Project5() {
                     <a href="https://github.com/Justhiraga/Appli-Web-React">
                         <img src={github_logo} alt="projet github" className="w-10 h-10 m-3 "/>
                     </a>
-                    <a href=""> 
+                    <a href="https://appli-web-react-dmgr.vercel.app"> 
                         <BookOpenText size={40} className="w-10 h-10 m-3" color="#ffffff" alt="github pages" />
                     </a>
                     <a href="https://www.figma.com/design/2BZEoBhyxt5IwZgRn0wGsL/Kasa_FR?node-id=0-1&p=f&t=zaLElgPSy2UsFTu9-0">

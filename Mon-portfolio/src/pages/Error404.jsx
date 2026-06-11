@@ -1,5 +1,5 @@
 import { NavLink } from "react-router";
-import Footer from "../components/molecules/footer";
+import Footer from "../components/molecules/Footer";
 
 
 
