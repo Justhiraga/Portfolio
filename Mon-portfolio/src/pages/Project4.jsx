@@ -32,13 +32,13 @@ export default function Project4() {
                     <Titles title={"Contexte : Situation et enjeux du projet"} />
                     <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 " >
 
-                        Quelle est la situation de la start-up Ohmyfood et pourquoi ce site est-il important ? <br /><br />
+                        Quelle est la situation de Nina Carducci et son site web avant optimisation ? <br /><br />
 
-                        (site de restauration en ligne, besoin de mettre en place une application mobile-first.)<br /><br />
+                        (SEO de 70, très mauvaise performance.)<br /><br />
 
-                        Quels sont les enjeux liés à la mise en œuvre d'un site mobile-first avec animations pour une start-up dans la restauration ?<br /><br />
+                       Quels enjeux SEO, de performance et d'accessibilité motivent ce projet ?<br /><br />
 
-                        (Par exemple : implanter la start-up à Paris après New York, améliorer l'expérience utilisateur sur mobile.)
+                        (Ex : amélioration de la performance, amélioration de l'accessibilité, amélioration du SEO.)<br /><br />
                         
                     </p>
                 </div>
@@ -46,52 +46,55 @@ export default function Project4() {
                     <Titles title={" Objectifs : Buts à atteindre et problématiques à résoudre"} />
                     <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6" >
 
-                        Quel est l'objectif principal du projet ? <br /> <br />
+                        Quels sont les objectifs précis ? <br /> <br />
 
-                        (Ex : créer une interface mobile-first avec animations CSS et responsive.) <br /> <br />
+                        (ex : améliorer la vitesse de chargement, corriger les problèmes SEO, optimiser l'accessibilité.) <br /> <br />
 
-                        Quelles problématiques techniques ou UX devez-vous résoudre ? <br /> <br />
+                        Quelles problématiques principales soulevent ce projet ? <br /> <br />
 
-                        (Ex : intégration fidèle des maquettes, adaptation aux différents formats d'écrans, fluidité des animations.)<br /> <br />
+                        (images lourdes, balisage insuffisant, absence de SEO local.)<br /> <br />
                     </p>
                 </div>
                 <div className="flex flex-col items-center bg-secondary">
                     <Titles title={"Stack technique : Technologies et outils utilisés"} />
                     <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6" >
 
-                        Quels langages et outils sont employés ? <br /> <br />
+                        - Audit avec Lighthouse, Wave pour la performance et l'accessibilité, GTMetrix.<br />
 
-                        (Sass pour le CSS, animations CSS, Git et GitHub pour le versionnement, GitHub Pages pour le déploiement.)<br /> <br />
+                        - Modification du code HTML, CSS, optimisation des images.<br />
 
-                        Avez-vous recours à des validateurs ou des outils spécifiques pour la qualité ?<br /> <br />
-
-                        (Ex : W3C Markup Validator, W3C CSS Validator, Google Lighthouse, etc.)
+                        - Ajout de balises Schema.org et méta-tags pour SEO local et réseaux sociaux.<br />
+                        
+                        - Utilisation de Git/GitHub pour versionner le code.<br />
                     </p>
                 </div>
                 <div className="flex flex-col items-center bg-primary">
                     <Titles title={" Compétences développées : Apprentissages et défis relevés"} />
                     <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6" >
 
-                        Quelles compétences techniques avez-vous améliorées ?<br /> <br />
+                        - Analyse et interprétation des rapports d'audit.<br />
 
-                        (Ex : gestion du responsive, usage de Sass, implémentation d'animations CSS, gestion de version avec Git.)<br /> <br />
+                        - Optimisation des performances front-end (compression, lazy loading).<br />
 
-                        Quels défis avez-vous rencontrés et surmontés ?<br /> <br />
+                        - Mise en œuvre des bonnes pratiques SEO technique (balises, structure sémantique).<br />
 
-                        (première ulitisation des animations CSS, gestion du responsive et première utilisation de SASS )
+                        - Amélioration de l'accessibilité (contraste, navigation clavier).<br />
+
+                        - Défis : équilibrer optimisation et qualité visuelle, apprendre à utiliser des outils d'audit.<br />
+
                     </p>
                 </div>
                 <div className="flex flex-col items-center bg-secondary">
                     <Titles title={"Résultats et impact : Livrables et métriques de réussite"} />
                     <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6" >
 
-                        Quels sont les livrables finaux ?<br /> <br />
+                        - Site optimisé avec score Lighthouse ≥ 90% en performance, SEO et accessibilité.<br />
 
-                        (Ex : site mobile-first fonctionnel publié sur GitHub Pages, code source versionné sur GitHub.)<br /> <br />
+                        - Rapport complet comparant avant/après avec captures et explications.<br />
 
-                        Comment mesurez-vous le succès ? Fidelité avec les maquettes, validation W3C, compatibilité multi-écrans ?<br /> <br />
+                        - Code source mis à jour sur GitHub.<br />
 
-                        (Ex : validation W3C, compatibilité multi-écrans, fidelité avec les maquettes.)
+                        - Impact : amélioration du référencement naturel, meilleure expérience utilisateur, augmentation probable du trafic.<br />
                     </p>
                 </div>
                 <div className="flex flex-col items-center bg-primary">
@@ -100,14 +103,21 @@ export default function Project4() {
 
                         Quels éléments pourraient être améliorés ou ajoutés ?<br /> <br />
 
-                        (Ex : animations JavaScript, optimisation des performances, accessibilité.)<br /> <br />
+                        - Approfondir SEO local avec plus de données structurées.<br />
+
+                        - Ajouter des tests de performance automatisés.<br />
+
+                        - Continuer l'optimisation des images et du code.<br />
+
+                        - Travailler l'accessibilité au-delà des critères standards.<br /><br />
+
 
                         Y a-t-il des idées pour aller plus loin dans ce projet ?<br /> <br />
 
                         (Non le projet est fini)
                     </p>
                 </div>
-                        </div>
+            </div>
             <Footer />
         </div>
     );
