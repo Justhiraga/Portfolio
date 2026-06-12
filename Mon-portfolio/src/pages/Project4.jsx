@@ -4,7 +4,7 @@ import GlassCard from "../components/molecules/GlassCard";
 import github_logo from "../assets/img/github_logo.png";
 import figmm_logo from "../assets/img/figma_logo.png";
 import Ninacarducci from "../assets/img/ninacarducci.png";
-import Titles from "../components/atoms/Titles";
+import Titles from "../components/atoms/titles";
 import { BookOpenText } from "lucide-react";
 import { useEffect } from "react";
 

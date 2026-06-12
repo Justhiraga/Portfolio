@@ -3,7 +3,7 @@ import Header from "../components/molecules/header";
 import GlassCard from "../components/molecules/GlassCard";
 import github_logo from "../assets/img/github_logo.png";
 import argentBank from "../assets/img/argentBank.png";
-import Titles from "../components/atoms/Titles";
+import Titles from "../components/atoms/titles";
 import { BookOpenText } from "lucide-react";
 import { useEffect } from "react";
 
