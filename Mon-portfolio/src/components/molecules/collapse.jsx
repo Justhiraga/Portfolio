@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
-import Desc from "../atoms/Desc";
+import Desc from "../atoms/desc";
 
 export default function Collapse( { Infos = [],Infos2 = [], pages, technologies = [] } ) {
     const [isOpen, setIsOpen] = useState(false);

@@ -1,8 +1,8 @@
 import Footer from "../components/molecules/footer";
 import Header from "../components/molecules/header";
-import GlassCard from "../components/molecules/GlassCard";
+import GlassCard from "../components/molecules/glassCard";
 import github_logo from "../assets/img/github_logo.png";
-import argentBank from "../assets/img/argentBank.png";
+import ArgentBank from "../assets/img/ArgentBank.png";
 import Titles from "../components/atoms/titles";
 import { BookOpenText } from "lucide-react";
 import { useEffect } from "react";

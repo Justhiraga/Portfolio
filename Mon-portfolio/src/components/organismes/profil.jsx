@@ -3,7 +3,7 @@ import photo_profil from "../../assets/img/photo_profil.jpg";
 import github_logo from "../../assets/img/github_logo.png";
 import linkedin_logo from "../../assets/img/linkedin_logo.png";
 import Titles from "../atoms/Titles";
-import Comp from "../molecules/Comp";
+import Comp from "../molecules/comp";
 
 
 export default function Profil() {

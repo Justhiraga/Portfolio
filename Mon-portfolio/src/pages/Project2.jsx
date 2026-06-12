@@ -1,6 +1,6 @@
 import Footer from "../components/molecules/footer";
 import Header from "../components/molecules/header";
-import GlassCard from "../components/molecules/GlassCard";
+import GlassCard from "../components/molecules/glassCard";
 import github_logo from "../assets/img/github_logo.png";
 import events724 from "../assets/img/events724.png";
 import Titles from "../components/atoms/titles";
