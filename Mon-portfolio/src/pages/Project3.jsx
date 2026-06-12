@@ -18,7 +18,7 @@ export default function Project3() {
             <Header  />
             <div className="min-h-[57vh] flex flex-col items-center pt10 bg-primary">
                 <Titles title={"Projet : Argent Bank"} />
-                <GlassCard imageSrc={argentBank} alt={"projet argentBank"} />
+                <GlassCard imageSrc={ArgentBank} alt={"projet argentBank"} />
                 <div className="flex items-center">
                     <a href="https://github.com/Justhiraga/ArgentBank-Frontend">
                         <img src={github_logo} alt="projet github" className="w-10 h-10 m-3 "/>

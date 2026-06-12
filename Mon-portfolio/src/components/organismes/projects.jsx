@@ -49,7 +49,7 @@ export default function Projects() {
         <div className="flex flex-col items-center p-5 bg-primary">
             <Titles title={"App React"} />
             <GlassCard imageSrc={Appreact} alt={"projet appreact"} />
-            <Collapse Infos={[{Repo:"https://github.com/Justhiraga/AppReact"}]} Infos2={[{Gpages:"https://appli-web-react-dmgr.vercel.app"}]} pages="Project-appreact" technologies={[{ src: react_logo, alt: "react logo"}, {src: CSS3_logo, alt:"css logo"}, {src: react_router_logo, alt:"react router logo"}]} />
+            <Collapse Infos={[{Repo:"https://github.com/Justhiraga/Appli-Web-React"}]} Infos2={[{Gpages:"https://appli-web-react-dmgr.vercel.app"}]} pages="Project-appreact" technologies={[{ src: react_logo, alt: "react logo"}, {src: CSS3_logo, alt:"css logo"}, {src: react_router_logo, alt:"react router logo"}]} />
         </div>
         <div className="flex flex-col items-center p-5 bg-secondary">
             <Titles title={"Print js"} />
