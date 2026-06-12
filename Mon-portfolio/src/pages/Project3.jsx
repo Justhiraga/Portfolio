@@ -1,5 +1,5 @@
-import Footer from "../components/molecules/Footer";
-import Header from "../components/molecules/Header";
+import Footer from "../components/molecules/footer";
+import Header from "../components/molecules/header";
 import GlassCard from "../components/molecules/GlassCard";
 import github_logo from "../assets/img/github_logo.png";
 import argentBank from "../assets/img/argentBank.png";
