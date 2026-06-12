@@ -1,6 +1,6 @@
 import Footer from "../components/molecules/footer";
 import Header from "../components/molecules/header";
-import GlassCard from "../components/molecules/glassCard";
+import GlassCard from "../components/molecules/GlassCard";
 import github_logo from "../assets/img/github_logo.png";
 import figmm_logo from "../assets/img/figma_logo.png";
 import Ninacarducci from "../assets/img/ninacarducci.png";
