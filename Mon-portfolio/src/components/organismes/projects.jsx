@@ -14,7 +14,7 @@ import lighthouse_logo from "../../assets/img/lighthouse_logo.png";
 import ohmyfood from "../../assets/img/ohmyfood.png";
 import events724 from "../../assets/img/events724.png";
 import ArgentBank from "../../assets/img/ArgentBank.png";
-import Ninacarducci from "../../assets/img/ninacarducci.png";
+import Ninacarducci from "../../assets/img/Ninacarducci.png";
 import Appreact from "../../assets/img/Appreact.png";
 import Print_js from "../../assets/img/Print_js.png";
 import Collapse from "../molecules/collapse";
