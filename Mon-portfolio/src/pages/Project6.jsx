@@ -1,9 +1,9 @@
 import Footer from "../components/molecules/footer";
 import Header from "../components/molecules/header";
 import GlassCard from "../components/molecules/GlassCard";
-import github_logo from "../assets/img/github_logo.png";
-import figmm_logo from "../assets/img/figma_logo.png";
-import Print_js from "../assets/img/Print_js.png";
+import github_logo from "../assets/img/github_logo.svg";
+import figmm_logo from "../assets/img/figma_logo.svg";
+import Print_js from "../assets/img/Print_js.webp";
 import Titles from "../components/atoms/titles";
 import { BookOpenText } from "lucide-react";
 import { useEffect } from "react";
@@ -30,7 +30,7 @@ export default function Project6() {
                 </div>
                 <div className="flex flex-col items-center bg-secondary border-t-2 border-quaternary w-full">
                     <Titles title={"Contexte : Situation et enjeux du projet"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
+                    <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
                        dynamiser un site web statique pour l'imprimerie "Print it." <br /><br />
 
@@ -40,7 +40,7 @@ export default function Project6() {
                 </div>
                 <div className="flex flex-col items-center bg-primary w-full">
                     <Titles title={" Objectifs : Buts à atteindre et problématiques à résoudre"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
+                    <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
                         - Ajouter un carrousel avec navigation visuelle (flèches, bullet points).<br />
 
@@ -56,7 +56,7 @@ export default function Project6() {
                 </div>
                 <div className="flex flex-col items-center bg-secondary w-full">
                     <Titles title={"Stack technique : Technologies et outils utilisés"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
+                    <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
                         - Langage : JavaScript (manipulation du DOM, gestion d'événements).<br />
 
@@ -71,7 +71,7 @@ export default function Project6() {
                 </div>
                 <div className="flex flex-col items-center bg-primary max-w-full">
                     <Titles title={" Compétences développées : Apprentissages et défis relevés"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
+                    <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
                         - Compréhension et intégration de fichiers JS dans un projet web.<br />
 
@@ -87,7 +87,7 @@ export default function Project6() {
                 </div>
                 <div className="flex flex-col items-center bg-secondary w-full">
                     <Titles title={"Résultats et impact : Livrables et métriques de réussite"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
+                    <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
                         - Un carrousel fonctionnel avec navigation par flèches et points.<br />
 
@@ -100,7 +100,7 @@ export default function Project6() {
                 </div>
                 <div className="flex flex-col items-center bg-primary w-full">
                     <Titles title={"Perspectives d'amélioration : Points d'optimisation identifiés"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
+                    <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
                         - Optimiser le design du carrousel pour plus de fluidité ou réactivité.<br />
 

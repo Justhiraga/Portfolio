@@ -1,7 +1,7 @@
 import GlassCard from "../molecules/GlassCard";
-import photo_profil from "../../assets/img/photo_profil.jpg";
-import github_logo from "../../assets/img/github_logo.png";
-import linkedin_logo from "../../assets/img/linkedin_logo.png";
+import photo_profil from "../../assets/img/photo_profil.webp";
+import github_logo from "../../assets/img/github_logo.svg";
+import linkedin_logo from "../../assets/img/linkedin_logo.svg";
 import Titles from "../atoms/titles";
 import Comp from "../molecules/comp";
 
@@ -20,7 +20,7 @@ export default function Profil() {
                         <img src={linkedin_logo} alt="profil github" className="w-10 h-10 m-3 "/>
                     </a>
                 </div>
-                <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-center text-white text-[25px] m-6" >
+                <p className="font-[Roboto] text-center text-white text-[25px] m-6" >
                     Passionné par le développement web, j'exercé des métiers dans l'environnement SAPAT, mais je me suis reconverti en 2024 dans le développement web. <br /> <br />   
 
                     J'ai donc décidé d'intégrer la formation d'intégrateur web niveau bac +2 chez Openclassrooms suite à laquelle j'ai appris et aquis des compétences indispensables au développement web tel que :<br /> <br />  

@@ -1,8 +1,6 @@
-import { Link, useLocation, NavLink } from "react-router";
-import { ArrowLeft } from "lucide-react";
+import { NavLink } from "react-router";
 
 export default function Header() {
-    const location = useLocation();
 
     return (
         <header className="flex justify-end p-5 bg-primary border-b-2 border-quaternary">
@@ -12,6 +10,7 @@ export default function Header() {
                         <>
                             <li><a href="#project">Projets</a></li>
                             <li><a href="#profil">Profil</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </>
                     ) : (
                         <>

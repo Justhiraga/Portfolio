@@ -1,8 +1,8 @@
 import Footer from "../components/molecules/footer";
 import Header from "../components/molecules/header";
 import GlassCard from "../components/molecules/GlassCard";
-import github_logo from "../assets/img/github_logo.png";
-import events724 from "../assets/img/events724.png";
+import github_logo from "../assets/img/github_logo.svg";
+import events724 from "../assets/img/events724.webp";
 import Titles from "../components/atoms/titles";
 import { BookOpenText } from "lucide-react";
 import { useEffect } from "react";
@@ -26,7 +26,7 @@ export default function Project2() {
                 </div>
                 <div className="flex flex-col items-center bg-secondary border-t-2 border-quaternary w-full">
                     <Titles title={"Contexte : Situation et enjeux du projet"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center " >
+                    <p className="font-[Roboto] text-white text-[25px] m-6 text-center " >
 
                        Quelle est la situation de l'agence 724events au moment du projet ? <br /><br />
 
@@ -40,7 +40,7 @@ export default function Project2() {
                 </div>
                 <div className="flex flex-col items-center bg-primary w-full">
                     <Titles title={" Objectifs : Buts à atteindre et problématiques à résoudre"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
+                    <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
                         Quel est l'objectif principal du projet ? <br /> <br />
 
@@ -53,7 +53,7 @@ export default function Project2() {
                 </div>
                 <div className="flex flex-col items-center bg-secondary w-full">
                     <Titles title={"Stack technique : Technologies et outils utilisés"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
+                    <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
                         Quelles technologies sont utilisées ? <br /> <br />
 
@@ -66,7 +66,7 @@ export default function Project2() {
                 </div>
                 <div className="flex flex-col items-center bg-primary w-full">
                     <Titles title={" Compétences développées : Apprentissages et défis relevés"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center">
+                    <p className="font-[Roboto] text-white text-[25px] m-6 text-center">
 
                         Quelles compétences techniques clés ont eu lieu ?<br /> <br />
 
@@ -79,7 +79,7 @@ export default function Project2() {
                 </div>
                 <div className="flex flex-col items-center bg-secondary w-full">
                     <Titles title={"Résultats et impact : Livrables et métriques de réussite"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
+                    <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
                         Quels sont les livrables finaux ?<br /> <br />
 
@@ -92,7 +92,7 @@ export default function Project2() {
                 </div>
                 <div className="flex flex-col items-center bg-primary w-full">
                     <Titles title={"Perspectives d'amélioration : Points d'optimisation identifiés"} />
-                    <p className="font-[Oswald] [text-shadow:1px_0px_0_#ad3d98,2px_0px_0_#7c299d,3px_0px_0_#7d3fb6] text-white text-[25px] m-6 text-center" >
+                    <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
                         Quels éléments pourraient être améliorés ou ajoutés ?<br /> <br />
 
