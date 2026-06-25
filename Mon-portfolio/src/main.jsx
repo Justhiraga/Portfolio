@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes , Route } from "react-router";
 import "./index.css";
 import Home from "./pages/Home.jsx";
+import ScrollToTop from "./components/atoms/ScrollToTop.jsx";
 import Error404 from "./pages/Error404.jsx";
 import Project1 from "./pages/Project1.jsx";
 import Project2 from "./pages/Project2.jsx";
@@ -14,6 +15,7 @@ const root = document.getElementById("root");
 
 ReactDOM.createRoot(root).render(
   <BrowserRouter>
+  <ScrollToTop />
   <Routes>
     <Route path="/" element={<Home />} />
     <Route path="*" element={<Error404 />} />
