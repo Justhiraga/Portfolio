@@ -24,7 +24,7 @@ export default function Project3() {
                         <img src={github_logo} alt="projet github" className="w-10 h-10 m-3 "/>
                     </a>
                 </div>
-                <div className="flex flex-col items-center bg-secondary border-t-2 border-quaternary w-full">
+                <div className="flex flex-col items-center bg-secondary border-t-2 border-quaternary w-full p-20">
                     <Titles title={"Contexte : Situation et enjeux du projet"} />
                     <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
@@ -38,7 +38,7 @@ export default function Project3() {
                         
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-primary w-full">
+                <div className="flex flex-col items-center bg-primary w-full p-20" >
                     <Titles title={" Objectifs : Buts à atteindre et problématiques à résoudre"} />
                     <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
@@ -51,59 +51,59 @@ export default function Project3() {
                         (par exemple : gestion du state global avec Redux, sécurisation des données utilisateur, développement responsive.)<br /> <br />
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-secondary w-full">
+                <div className="flex flex-col items-center bg-secondary w-full p-20" >
                     <Titles title={"Stack technique : Technologies et outils utilisés"} />
                     <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
                         Quelles technologies sont utilisées ? <br /> <br />
 
-                        (- React & Redux pour le front-end.<br /> 
-                        - Node.js côté serveur.<br /> 
-                        - Swagger pour la documentation API. <br /> 
-                        - API REST pour la communication front/back. <br /> 
+                        (- React & Redux pour le front-end.<br /> <br /> 
+                        - Node.js côté serveur.<br /> <br /> 
+                        - Swagger pour la documentation API. <br /> <br /> 
+                        - API REST pour la communication front/back. <br /> <br /> 
                         - Outils d'optimisation Green Code pour images et composants.)<br /> <br />
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-primary w-full">
+                <div className="flex flex-col items-center bg-primary w-full p-20" >
                     <Titles title={" Compétences développées : Apprentissages et défis relevés"} />
                     <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
                         Quelles sont les principales compétences acquises ?<br /> <br />
 
-                        - Maîtrise de React avancé et Redux pour la gestion globale des états.<br /> 
+                        - Maîtrise de React avancé et Redux pour la gestion globale des états.<br /> <br /> 
 
-                        - Mise en place de l'authentification sécurisée et modification utilisateur.<br />
+                        - Mise en place de l'authentification sécurisée et modification utilisateur.<br /><br /> 
 
-                        - Intégration de l'appels API REST via Swagger.<br />
+                        - Intégration de l'appels API REST via Swagger.<br /><br /> 
 
-                        - Développement d'une application responsive.<br />
+                        - Développement d'une application responsive.<br /><br /> 
 
-                        - Pratiques d'optimisation de code (Green Code).<br />
+                        - Pratiques d'optimisation de code (Green Code).<br /><br /> 
 
                         - Défis techniques rencontrés comme la garantie de sécurité, la gestion des appels asynchrones, ou l'optimisation des performances.
                                                 
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-secondary w-full">
+                <div className="flex flex-col items-center bg-secondary w-full p-20" >
                     <Titles title={"Résultats et impact : Livrables et métriques de réussite"} />
                     <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
                         Quels sont les livrables finaux ?<br /> <br />
                         
-                        - Application front-end complète et fonctionnelle, intégrée côté serveur.<br />
+                        - Application front-end complète et fonctionnelle, intégrée côté serveur.<br /><br /> 
 
-                        - Authentification sécurisée et gestion des utilisateurs opérationnelle.<br />
+                        - Authentification sécurisée et gestion des utilisateurs opérationnelle.<br /><br /> 
 
-                        - Visualisation et gestion des transactions implémentées.<br />
+                        - Visualisation et gestion des transactions implémentées.<br /><br /> 
 
-                        - Documentation Swagger respectée et maintenable.<br />
+                        - Documentation Swagger respectée et maintenable.<br /><br /> 
 
-                        - Tests et déploiement local réalisés.<br />
+                        - Tests et déploiement local réalisés.<br /><br /> 
 
                         - Critères de réussite : fonctionnement sans bug, expérience utilisateur fluide, respect des maquettes et normes de sécurité.<br />
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-primary w-full">
+                <div className="flex flex-col items-center bg-primary w-full p-20" >
                     <Titles title={"Perspectives d'amélioration : Points d'optimisation identifiés"} />
                     <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 

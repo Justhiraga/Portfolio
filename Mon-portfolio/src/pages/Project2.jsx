@@ -24,7 +24,7 @@ export default function Project2() {
                          <img src={github_logo} alt="projet github" className="w-10 h-10 m-3 "/>
                     </a>
                 </div>
-                <div className="flex flex-col items-center bg-secondary border-t-2 border-quaternary w-full">
+                <div className="flex flex-col items-center bg-secondary border-t-2 border-quaternary w-full p-20">
                     <Titles title={"Contexte : Situation et enjeux du projet"} />
                     <p className="font-[Roboto] text-white text-[25px] m-6 text-center " >
 
@@ -38,7 +38,7 @@ export default function Project2() {
                         
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-primary w-full">
+                <div className="flex flex-col items-center bg-primary w-full p-20">
                     <Titles title={" Objectifs : Buts à atteindre et problématiques à résoudre"} />
                     <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
@@ -51,7 +51,7 @@ export default function Project2() {
                         (Ex : bugs dans le Slider, gestion des dépendances, tests automatisés.)<br /> <br />
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-secondary w-full">
+                <div className="flex flex-col items-center bg-secondary w-full p-20">
                     <Titles title={"Stack technique : Technologies et outils utilisés"} />
                     <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
@@ -64,7 +64,7 @@ export default function Project2() {
                         (Chrome DevTools, React Developer Tools, Yarn test, VS Code.)
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-primary w-full">
+                <div className="flex flex-col items-center bg-primary w-full p-20">
                     <Titles title={" Compétences développées : Apprentissages et défis relevés"} />
                     <p className="font-[Roboto] text-white text-[25px] m-6 text-center">
 
@@ -77,7 +77,7 @@ export default function Project2() {
                         (Ex : bugs dans le Slider, gestion des dépendances, tests automatisés.)
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-secondary w-full">
+                <div className="flex flex-col items-center bg-secondary w-full p-20">
                     <Titles title={"Résultats et impact : Livrables et métriques de réussite"} />
                     <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
@@ -90,7 +90,7 @@ export default function Project2() {
                         (Stabilité du site, passage réussi des tests, qualité des correctifs.)
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-primary w-full">
+                <div className="flex flex-col items-center bg-primary w-full p-20">
                     <Titles title={"Perspectives d'amélioration : Points d'optimisation identifiés"} />
                     <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 

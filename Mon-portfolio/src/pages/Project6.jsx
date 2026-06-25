@@ -28,7 +28,7 @@ export default function Project6() {
                         <BookOpenText size={40} className="w-10 h-10 m-3" color="#ffffff" alt="github pages" />
                     </a>
                 </div>
-                <div className="flex flex-col items-center bg-secondary border-t-2 border-quaternary w-full">
+                <div className="flex flex-col items-center bg-secondary border-t-2 border-quaternary w-full p-20">
                     <Titles title={"Contexte : Situation et enjeux du projet"} />
                     <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
@@ -38,79 +38,79 @@ export default function Project6() {
                         
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-primary w-full">
+                <div className="flex flex-col items-center bg-primary w-full p-20">
                     <Titles title={" Objectifs : Buts à atteindre et problématiques à résoudre"} />
                     <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
-                        - Ajouter un carrousel avec navigation visuelle (flèches, bullet points).<br />
+                        - Ajouter un carrousel avec navigation visuelle (flèches, bullet points).<br /><br /> 
 
-                        - Rendre le carrousel interactif via JavaScript (gestion des événements, changement d'images et de texte).<br />
+                        - Rendre le carrousel interactif via JavaScript (gestion des événements, changement d'images et de texte).<br /><br /> 
 
-                        - Mettre en place un défilement infini pour une navigation fluide.<br />
+                        - Mettre en place un défilement infini pour une navigation fluide.<br /><br /> 
 
-                        - Utiliser HTML, CSS et JavaScript en complément.<br />
+                        - Utiliser HTML, CSS et JavaScript en complément.<br /><br /> 
 
-                        - Gérer proprement la manipulation du DOM<br />
+                        - Gérer proprement la manipulation du DOM<br /><br /> 
 
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-secondary w-full">
+                <div className="flex flex-col items-center bg-secondary w-full p-20">
                     <Titles title={"Stack technique : Technologies et outils utilisés"} />
                     <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
-                        - Langage : JavaScript (manipulation du DOM, gestion d'événements).<br />
+                        - Langage : JavaScript (manipulation du DOM, gestion d'événements).<br /><br /> 
 
-                        - HTML/CSS pour la structure et le style du site.<br />
+                        - HTML/CSS pour la structure et le style du site.<br /><br /> 
 
-                        - Visual Studio Code pour l'édition du code.<br />
+                        - Visual Studio Code pour l'édition du code.<br /><br /> 
 
-                        - GitHub pour le versionnement et la collaboration.<br />
+                        - GitHub pour le versionnement et la collaboration.<br /><br /> 
 
-                        - GitHub Pages pour héberger et publier le site.<br />
+                        - GitHub Pages pour héberger et publier le site.<br /><br /> 
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-primary max-w-full">
+                <div className="flex flex-col items-center bg-primary max-w-full p-20">
                     <Titles title={" Compétences développées : Apprentissages et défis relevés"} />
                     <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
-                        - Compréhension et intégration de fichiers JS dans un projet web.<br />
+                        - Compréhension et intégration de fichiers JS dans un projet web.<br /><br /> 
 
-                        - Manipulation du DOM pour dynamique les contenus.<br />
+                        - Manipulation du DOM pour dynamique les contenus.<br /><br /> 
 
-                        - Ajout des Event Listeners pour interactions utilisateurs.<br />
+                        - Ajout des Event Listeners pour interactions utilisateurs.<br /><br /> 
 
-                        - Mise en place d'une navigation fluide (bouclage du carrousel).<br />
+                        - Mise en place d'une navigation fluide (bouclage du carrousel).<br /><br /> 
 
-                        - Bonne pratique de gestion de versions avec GitHub.<br />
+                        - Bonne pratique de gestion de versions avec GitHub.<br /><br /> 
 
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-secondary w-full">
+                <div className="flex flex-col items-center bg-secondary w-full p-20">
                     <Titles title={"Résultats et impact : Livrables et métriques de réussite"} />
                     <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
-                        - Un carrousel fonctionnel avec navigation par flèches et points.<br />
+                        - Un carrousel fonctionnel avec navigation par flèches et points.<br /><br /> 
 
-                        - Code hébergé sur un repo GitHub accessible.<br />
+                        - Code hébergé sur un repo GitHub accessible.<br /><br /> 
 
-                        - Publication du site via GitHub Pages avec le carrousel dynamique en direct.<br />
+                        - Publication du site via GitHub Pages avec le carrousel dynamique en direct.<br /><br /> 
 
-                        - Validation technique lors de la session bilan avec le mentor.<br />
+                        - Validation technique lors de la session bilan avec le mentor.<br /><br /> 
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-primary w-full">
+                <div className="flex flex-col items-center bg-primary w-full p-20">
                     <Titles title={"Perspectives d'amélioration : Points d'optimisation identifiés"} />
                     <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
-                        - Optimiser le design du carrousel pour plus de fluidité ou réactivité.<br />
+                        - Optimiser le design du carrousel pour plus de fluidité ou réactivité.<br /><br /> 
 
-                        - Ajouter une navigation tactile pour mobiles.<br />
+                        - Ajouter une navigation tactile pour mobiles.<br /><br /> 
 
-                        - Intégrer des animations plus avancées (transitions, effets).<br />
+                        - Intégrer des animations plus avancées (transitions, effets).<br /><br /> 
 
-                        - Rendre le carrousel accessible (compatibilité lecteurs d'écran).<br />
+                        - Rendre le carrousel accessible (compatibilité lecteurs d'écran).<br /><br /> 
                         
-                        - Améliorer la gestion d'erreurs ou cas limites dans le code JS.<br />
+                        - Améliorer la gestion d'erreurs ou cas limites dans le code JS.<br /><br /> 
             
                         Y a-t-il des idées pour aller plus loin dans ce projet ?<br /> <br />
 

@@ -28,7 +28,7 @@ export default function Project4() {
                         <BookOpenText size={40} className="w-10 h-10 m-3" color="#ffffff" alt="github pages" />
                     </a>
                 </div>
-                <div className="flex flex-col items-center bg-secondary border-t-2 border-quaternary w-full">
+                <div className="flex flex-col items-center bg-secondary border-t-2 border-quaternary w-full p-20">
                     <Titles title={"Contexte : Situation et enjeux du projet"} />
                     <p className="font-[Roboto] text-white text-[25px] m-6 text-center " >
 
@@ -42,7 +42,7 @@ export default function Project4() {
                         
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-primary w-full">
+                <div className="flex flex-col items-center bg-primary w-full p-20">
                     <Titles title={" Objectifs : Buts à atteindre et problématiques à résoudre"} />
                     <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
@@ -55,59 +55,59 @@ export default function Project4() {
                         (images lourdes, balisage insuffisant, absence de SEO local.)<br /> <br />
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-secondary w-full">
+                <div className="flex flex-col items-center bg-secondary w-full p-20">
                     <Titles title={"Stack technique : Technologies et outils utilisés"} />
                     <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
-                        - Audit avec Lighthouse, Wave pour la performance et l'accessibilité, GTMetrix.<br />
+                        - Audit avec Lighthouse, Wave pour la performance et l'accessibilité, GTMetrix.<br /><br /> 
 
-                        - Modification du code HTML, CSS, optimisation des images.<br />
+                        - Modification du code HTML, CSS, optimisation des images.<br /><br /> 
 
-                        - Ajout de balises Schema.org et méta-tags pour SEO local et réseaux sociaux.<br />
+                        - Ajout de balises Schema.org et méta-tags pour SEO local et réseaux sociaux.<br /><br /> 
                         
-                        - Utilisation de Git/GitHub pour versionner le code.<br />
+                        - Utilisation de Git/GitHub pour versionner le code.<br /><br /> 
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-primary w-full">
+                <div className="flex flex-col items-center bg-primary w-full p-20">
                     <Titles title={" Compétences développées : Apprentissages et défis relevés"} />
                     <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
-                        - Analyse et interprétation des rapports d'audit.<br />
+                        - Analyse et interprétation des rapports d'audit.<br /><br /> 
 
-                        - Optimisation des performances front-end (compression, lazy loading).<br />
+                        - Optimisation des performances front-end (compression, lazy loading).<br /><br /> 
 
-                        - Mise en œuvre des bonnes pratiques SEO technique (balises, structure sémantique).<br />
+                        - Mise en œuvre des bonnes pratiques SEO technique (balises, structure sémantique).<br /><br /> 
 
-                        - Amélioration de l'accessibilité (contraste, navigation clavier).<br />
+                        - Amélioration de l'accessibilité (contraste, navigation clavier).<br /><br /> 
 
-                        - Défis : équilibrer optimisation et qualité visuelle, apprendre à utiliser des outils d'audit.<br />
+                        - Défis : équilibrer optimisation et qualité visuelle, apprendre à utiliser des outils d'audit.<br /><br /> 
 
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-secondary w-full">
+                <div className="flex flex-col items-center bg-secondary w-full p-20">
                     <Titles title={"Résultats et impact : Livrables et métriques de réussite"} />
                     <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
-                        - Site optimisé avec score Lighthouse ≥ 90% en performance, SEO et accessibilité.<br />
+                        - Site optimisé avec score Lighthouse ~ 90% en performance, SEO et accessibilité.<br /><br /> 
 
-                        - Rapport complet comparant avant/après avec captures et explications.<br />
+                        - Rapport complet comparant avant/après avec captures et explications.<br /><br /> 
 
-                        - Code source mis à jour sur GitHub.<br />
+                        - Code source mis à jour sur GitHub.<br /><br /> 
 
-                        - Impact : amélioration du référencement naturel, meilleure expérience utilisateur, augmentation probable du trafic.<br />
+                        - Impact : amélioration du référencement naturel, meilleure expérience utilisateur, augmentation probable du trafic.<br /><br /> 
                     </p>
                 </div>
-                <div className="flex flex-col items-center bg-primary w-full">
+                <div className="flex flex-col items-center bg-primary w-full p-20">
                     <Titles title={"Perspectives d'amélioration : Points d'optimisation identifiés"} />
                     <p className="font-[Roboto] text-white text-[25px] m-6 text-center" >
 
                         Quels éléments pourraient être améliorés ou ajoutés ?<br /> <br />
 
-                        - Approfondir SEO local avec plus de données structurées.<br />
+                        - Approfondir SEO local avec plus de données structurées.<br /><br /> 
 
-                        - Ajouter des tests de performance automatisés.<br />
+                        - Ajouter des tests de performance automatisés.<br /><br /> 
 
-                        - Continuer l'optimisation des images et du code.<br />
+                        - Continuer l'optimisation des images et du code.<br /><br /> 
 
                         - Travailler l'accessibilité au-delà des critères standards.<br /><br />
 
